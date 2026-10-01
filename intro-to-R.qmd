@@ -266,7 +266,7 @@ $$ {#eq-matrix-c}
 
 ```{r}
 C <- matrix(c(1,0,0,1,1,0,0,1,1), ncol = 3, nrow = 3)
-inv_C <-solve(C) 
+# inv_C <-solve(C) 
 ```
 
 You will often want to calculate row-wise or column-wise summary statistics of matrices and other grid-like data structures. 
